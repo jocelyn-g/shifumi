@@ -52,7 +52,7 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
-    <Text style={styles.info}>Choisi ton action</Text>
+    <Text style={styles.info}>choose your action</Text>
       <View>
         <Pressable onPress={onPressPierre}>
           <Text style={styles.btn}><FontAwesome name="hand-rock-o" size={60} color="white" /></Text>
